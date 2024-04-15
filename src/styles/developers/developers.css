@@ -1,6 +1,7 @@
 .colors {
   position: relative;
 }
+
 .colors .circle {
   height: 25rem;
   width: 25rem;
@@ -12,6 +13,7 @@
   border-radius: 50%;
   filter: blur(200px);
 }
+
 .colors .circle:before {
   content: "";
   height: 25rem;
@@ -23,6 +25,7 @@
   border-radius: 50%;
   filter: blur(200px);
 }
+
 .colors .random {
   height: 25rem;
   width: 25rem;
@@ -54,6 +57,7 @@
   font-size: 4vw;
   font-family: "Poppins", sans-serif;
 }
+
 .developer-detail-cards {
   margin-top: 1rem;
   width: 75%;
@@ -65,6 +69,7 @@
   flex-wrap: wrap;
   gap: 2rem;
 }
+
 .developer-card {
   display: flex;
   flex-direction: column;
@@ -75,6 +80,7 @@
   box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
   background: #ecf0f3;
 }
+
 .img-container {
   width: 80%;
   height: 65%;
@@ -84,6 +90,7 @@
   overflow: hidden;
   box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
 }
+
 .skewed {
   width: 100%;
   height: 120%;
@@ -141,13 +148,14 @@
 
 .developers_content .links {
   width: 70%;
-  margin-top: 0.7rem;
+  margin-top: 1vw;
   display: flex;
   padding: 0 1.4vw;
   gap: 1rem;
   justify-content: space-evenly;
   font-size: 1.9vw;
 }
+
 .icon_link {
   aspect-ratio: 1/1;
   height: auto;
@@ -159,19 +167,29 @@
   background: #ecf0f3;
   box-shadow: -5px -5px 10px #c4c5c7, 5px 5px 10px #ffffff;
 }
-.icon_link > .icons {
+
+.icon_link>.icons {
   display: block;
   padding: 0.5rem;
 }
+
+.icons {
+  width: 2.2vw;
+  height: 2.2vw;
+}
+
 .insta {
   color: #e1306c;
 }
+
 .linked {
   color: #0077b5;
 }
+
 .github {
   color: #333;
 }
+
 .footer-div {
   width: 85%;
 }
@@ -183,7 +201,7 @@
   margin: 1vh 0;
 }
 
-.legal-links > h2 {
+.legal-links>h2 {
   font-weight: 500;
   font-size: 1.4vw;
 }
@@ -208,32 +226,40 @@ hr {
     padding: 1vh 3vw;
     width: 100%;
   }
+
   .developer-info h1 {
     font-size: 3.2rem;
   }
+
   .colors {
     display: block;
   }
+
   .developer-card {
     width: 20rem;
     height: 28rem;
   }
+
   .developers_content {
     height: 10rem;
     margin: 0.5rem;
     width: 86%;
   }
+
   .developers_content h2 {
     font-size: 1.8rem;
     margin-top: -0.4vh;
   }
+
   .developers_content p {
     font-size: 1rem;
   }
+
   .developers_content .links {
     padding: 0 2vw;
     font-size: 1.6rem;
   }
+
   .footer-div {
     width: 80%;
     height: fit-content;
@@ -246,7 +272,7 @@ hr {
     margin: 0.5rem 0;
   }
 
-  .legal-links > h2 {
+  .legal-links>h2 {
     font-size: 1.1rem;
   }
 
@@ -256,6 +282,10 @@ hr {
     padding: 0 3rem;
     font-size: 1rem;
   }
+  .icons {
+    width: 3vw;
+    height: 3vw;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -263,18 +293,22 @@ hr {
     height: fit-content;
     width: 100%;
   }
+
   .developer-info h1 {
     font-size: 8vw;
   }
+
   .developer-detail-cards {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
   }
+
   .developer-card {
     width: 22rem;
     height: 30rem;
   }
+
   /* .developer-card:nth-child(3) {
       order: 1;
     }
@@ -297,23 +331,32 @@ hr {
     margin-top: 1.8vh;
     height: 10rem;
   }
+
   .developers_content h2 {
     font-size: 2rem;
     margin-top: -1vh;
   }
+
   .developers_content p {
     font-size: 1.2rem;
     line-height: 0.9;
   }
+
   .developers_content .links {
     font-size: 1.9rem;
     padding: 0 1.3rem;
     margin-top: 0.4vh;
   }
+
   .icon_link {
     margin-top: 0.5vh;
   }
-  .legal-links > h2 {
+  .icons {
+    width: 4.2vw;
+    height: 4.2vw;
+  }
+
+  .legal-links>h2 {
     font-size: 1rem;
   }
 }
@@ -324,33 +367,51 @@ hr {
     height: fit-content;
     margin-bottom: 10px;
   }
+
   .legal-links {
     flex-direction: column;
   }
+
   .legal-links ul {
     justify-content: center;
   }
+  .icons {
+    width: 8vw;
+    height: 8vw;
+  }
+  .links {
+    margin-top: 2vw !important;
+  }
 }
+
 @media only screen and (max-width: 320px) {
   .developer-card {
     height: 26rem;
   }
+
   .developers_content {
     border-radius: 2vh;
     height: 9rem;
     margin-top: 2.6vh;
   }
+
   .developers_content h2 {
     font-size: 1.5rem;
     margin-top: -0.9vh;
   }
+
   .developers_content p {
     font-size: 1rem;
     line-height: 0.9;
   }
+
   .developers_content .links {
     font-size: 1.5rem;
     margin-top: 1vh;
     width: 80%;
+  }
+  .icons {
+    width: 10vw;
+    height: 10vw;
   }
 }

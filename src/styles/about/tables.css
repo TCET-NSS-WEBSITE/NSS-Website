@@ -44,6 +44,10 @@ tr:first-child {
   .really-really-huge-table > tr > td {
     padding: 3px;
   }
+  
+  .really-big-table {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 375px) {

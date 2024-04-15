@@ -1,5 +1,4 @@
 import "../styles/developers/developers.css";
-import { Link } from "react-router-dom";
 import GitHub from "../assets/static_images/github.svg";
 import Instagram from "../assets/static_images/instagram.svg";
 import LinkedIn from "../assets/static_images/linkedin.svg";
@@ -96,39 +95,24 @@ const Developers = () => {
                 <h2>{developer.name}</h2>
                 <p>{developer.role}</p>
                 <div className="links">
-                  <Link
-                    className="icon_link"
-                    to={developer.social.instagram}
-                    target="_blank"
-                  >
-                    <img
-                      src={Instagram}
-                      className="icons insta"
-                      alt="Instagram logo"
-                    />
-                  </Link>
-                  <Link
-                    className="icon_link"
-                    to={developer.social.linkedin}
-                    target="_blank"
-                  >
-                    <img
-                      src={LinkedIn}
-                      className="icons linked"
-                      alt="LinkedIn logo"
-                    />
-                  </Link>
-                  <Link
-                    className="icon_link"
-                    to={developer.social.github}
-                    target="_blank"
-                  >
-                    <img
-                      src={GitHub}
-                      className="icons github"
-                      alt="GitHub logo"
-                    />
-                  </Link>
+                  <img
+                    src={Instagram}
+                    className="icons insta"
+                    alt="Instagram logo"
+                    onClick={() => window.open(developer.social.instagram, '_blank')}
+                  />
+                  <img
+                    src={LinkedIn}
+                    onClick={() => window.open(developer.social.linkedin, '_blank')}
+                    className="icons linked"
+                    alt="LinkedIn logo"
+                  />
+                  <img
+                    src={GitHub}
+                    onClick={() => window.open(developer.social.github, '_blank')}
+                    className="icons github"
+                    alt="GitHub logo"
+                  />
                 </div>
               </div>
             </div>
