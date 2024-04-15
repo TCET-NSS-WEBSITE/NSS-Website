@@ -95,12 +95,14 @@ const Developers = () => {
                 <h2>{developer.name}</h2>
                 <p>{developer.role}</p>
                 <div className="links">
+                  <div className="icon_link">
                   <img
                     src={Instagram}
                     className="icons insta"
                     alt="Instagram logo"
                     onClick={() => window.open(developer.social.instagram, '_blank')}
                   />
+                  </div>
                   <img
                     src={LinkedIn}
                     onClick={() => window.open(developer.social.linkedin, '_blank')}
