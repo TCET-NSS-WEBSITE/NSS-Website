@@ -103,18 +103,26 @@ const Developers = () => {
                     onClick={() => window.open(developer.social.instagram, '_blank')}
                   />
                   </div>
+                  <div className="icon_link">
+
                   <img
                     src={LinkedIn}
                     onClick={() => window.open(developer.social.linkedin, '_blank')}
                     className="icons linked"
                     alt="LinkedIn logo"
                   />
+                                    </div>
+                                    <div className="icon_link">
+
+
                   <img
                     src={GitHub}
                     onClick={() => window.open(developer.social.github, '_blank')}
                     className="icons github"
                     alt="GitHub logo"
                   />
+                                    </div>
+
                 </div>
               </div>
             </div>
