@@ -111,8 +111,8 @@ const Developers = () => {
                     className="icons linked"
                     alt="LinkedIn logo"
                   />
-                                    </div>
-                                    <div className="icon_link">
+                  </div>
+                  <div className="icon_link">
 
 
                   <img

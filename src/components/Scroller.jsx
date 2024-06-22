@@ -137,7 +137,7 @@ const cards = [
       "It's not about the resources you have available. It's about the resourcefulness you have within you.",
 
     details: {
-      name: "NandKumar Pandey",
+      name: "Nandkumar Pandey",
       desi: "Finance Head",
       social: {
         instagram: "https://www.instagram.com/n_pandey_15",
